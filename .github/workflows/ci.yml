@@ -1,4 +1,4 @@
-name: Portfolio CI
+name: webpage CI
 
 on:
   push:
