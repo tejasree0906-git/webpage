@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Testing GitHub Actions CI -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tejasree Eriki | AI &amp; Machine Learning Student</title>
+
+  <style>
+    /* ---------- Basic reset and page setup ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f8fc;
+      color: #333333;
+      line-height: 1.6;
+    }
+
+    /* ---------- Navigation bar ---------- */
+    header {
+      background-color: #ffffff;
+      border-bottom: 1px solid #dde4ee;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 14px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .logo {
+      font-weight: bold;
+      color: #0b2a5b;
+      font-size: 1.1rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #0b2a5b;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* ---------- Sections ---------- */
+    section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    h1, h2, h3 {
+      color: #0b2a5b;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #0b2a5b;
+      display: inline-block;
+      padding-bottom: 4px;
+    }
+
+    /* ---------- Home ---------- */
+    #home {
+      text-align: center;
+      padding-top: 90px;
+      padding-bottom: 90px;
+    }
+
+    #home h1 {
+      font-size: 2.6rem;
+      margin-bottom: 10px;
+    }
+
+    #home p {
+      font-size: 1.2rem;
+      color: #4a5a75;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 26px;
+      background-color: #0b2a5b;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    .button:hover {
+      background-color: #16408a;
+    }
+
+    /* ---------- Skills ---------- */
+    .skills-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .skills-list li {
+      background-color: #ffffff;
+      border: 1px solid #c9d5e8;
+      color: #0b2a5b;
+      padding: 8px 16px;
+      border-radius: 20px;
+    }
+
+    /* ---------- Projects ---------- */
+    .projects {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border: 1px solid #dde4ee;
+      border-radius: 8px;
+      padding: 22px;
+    }
+
+    .card h3 {
+      margin-bottom: 8px;
+    }
+
+    /* ---------- Contact ---------- */
+    .contact-list {
+      list-style: none;
+    }
+
+    .contact-list li {
+      margin-bottom: 10px;
+    }
+
+    .contact-list a {
+      color: #16408a;
+    }
+
+    /* ---------- Footer ---------- */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #0b2a5b;
+      color: #ffffff;
+      font-size: 0.9rem;
+    }
+
+    /* ---------- Mobile layout ---------- */
+    @media (max-width: 600px) {
+      #home h1 {
+        font-size: 2rem;
+      }
+
+      .projects {
+        grid-template-columns: 1fr;
+      }
+
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <span class="logo">Tejasree Eriki</span>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home">
+    <h1>Tejasree Eriki</h1>
+    <p>AI &amp; Machine Learning Student</p>
+    <a class="button" href="#contact">Get in Touch</a>
+  </section>
+
+  <!-- About Me -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi! I am an undergraduate student studying Artificial Intelligence and
+      Machine Learning. I enjoy programming, solving problems, and learning how
+      machine learning models can be used to build useful things. I am always
+      looking for new projects that help me grow my skills.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Java</li>
+      <li>Python</li>
+      <li>Data Structures and Algorithms</li>
+      <li>Machine Learning</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Git</li>
+      <li>GitHub</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+
+      <div class="card">
+        <h3>Kolam AI</h3>
+        <p>
+          A project that studies the design rules behind traditional Kolam
+          patterns and recreates them using code.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Smart Tourist Safety System</h3>
+        <p>
+          A project focused on helping keep tourists safe by using technology
+          to support their travel experience.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <ul class="contact-list">
+      <li>
+        <strong>Email:</strong>
+        <a href="mailto:tejasreeeriki@gmail.com">tejasreeeriki@gmail.com</a>
+      </li>
+      <li>
+        <strong>GitHub:</strong>
+        <a href="https://github.com/tejasree0906-git" target="_blank" rel="noopener">github.com/tejasree0906-git</a>
+      </li>
+      <li>
+        <strong>LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener">linkedin.com/in/your-profile</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Tejasree Eriki</p>
+  </footer>
+
+</body>
+</html>
